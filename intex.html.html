@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+     <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            const audio = document.getElementById('myAudio');
+            if (audio) {
+                audio.play().catch(error => {
+                    console.log('Autoplay was prevented. User interaction is required.');
+                });
+            }
+        });
+    </script>
+</head>
+<body>
+     <audio id="myAudio" autoplay>
+        <source src="C:\Users\User\pythonProject4\Music\Ennavale_Ennai_Maranthathu_Yeno_video_song_Tamil_album(256k).mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <!-- Optional: Add a button for user interaction if needed -->
+    <button onclick="document.getElementById('myAudio').play()">Play Audio</button>
+    <div calss="bg">
+    <div class="container">
+        <div class="card">
+            <div class="outside">
+                <h1>Happy Birthday</h1>
+            </div>
+            <div class="inside">
+                <img src="C:\Users\User\Pictures\pic.png.jpg"width="70%" height="60%" />
+                    <b><font color ="red">Indraiya naal than thayin  karuvaraiyai thirandhu yenudan manavaraiyai sondham kolla vandha penney...Ne pirakum podhu thaniyaga vandhurukalam valum podhum ne thaniyal illai unnudan naan ulleyn...happy birthday di ye pondatti...</font><
+                
+            </div>
+        </div>
+
+        <div class="block">
+            <div class="frames frame1">
+                <img src="C:\Users\User\Pictures\form1.jpg" alt="">
+                <p >ALLWAYS BE HAPPY AND STAY CLAM</p>
+            </div>
+            <div class="frames frame2">
+                <img src="C:\Users\User\Pictures\form2.jpg" alt="">
+                <p>STAY STRONG IN ANY SITUATION 
+                </p>
+            </div>
+            <div class="frames frame3">
+                <img src="C:\Users\User\Pictures\form3.jpg" alt="">
+                <p>DON'T LOOS YOUR HOPE ON LIFE I ALLWAYS BE WITH YOU MY CHLM...LOVE YOU</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
